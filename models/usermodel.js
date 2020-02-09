@@ -16,6 +16,9 @@ const Users = db.define('users', {
         allowNull: false,
         trim: true,
         minlength: 5
+    },
+    role: {
+        type: Sequelize.ENUM['user', 'admin']
     }
 })
 
