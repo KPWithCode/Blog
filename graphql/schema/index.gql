@@ -33,3 +33,5 @@ schema {
     mutation: RootMutation
 }
 `
+
+module.exports = typeDefs
