@@ -12,7 +12,7 @@ const Blogs = db.define('blogs', {
         allowNull: false,
     },
     contact: {
-        type: String
+        type: Sequelize.String
     },
     published: {
         type: Sequelize.DATE
